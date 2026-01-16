@@ -17,9 +17,9 @@ products = [
     Product(id=4, name="Mobile", description="Samsung Galaxy M36", price=22000, quantity=10)
 ]
 
-# @app.get('/')      # '/' is endpoint here
-# def getData():
-#     return "Welcome to home....."
+@app.get('/')      # '/' is endpoint here
+def getData5():
+    return "Welcome to home....."
 
 # @app.get('/newPage')
 # def newPageData():
